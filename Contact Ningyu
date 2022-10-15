@@ -1,0 +1,91 @@
+<!-- This began to be written for Ningyu Jiang. -->
+<!DOCTYPE html>
+<html>
+<html lang="en-IE"
+<head>
+<title>Contact</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    .topnav {
+        overflow: hidden;
+        background-color: #a4ccd3;
+    }
+    
+    .topnav {
+        float: right;
+        color: aquamarine;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .topnav:hover {
+        background-color: Currently under maintenance;
+        color: black;
+    }
+    
+    .topnav a.active {
+        background-color: #ffffff;
+        color: white;
+    }
+    
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #a4ccd3;
+        color: white;
+        text-align: center;
+    }
+    
+    .logo {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+    
+    h2   {color: #a4ccd3;}
+    h3   {color: #a4ccd3;}
+</style>
+</head>
+<body>
+    <div class="topnav">
+        <a href="Home.html">Home</a>
+        <a href="About_us.hmtl">About Us</a>
+        <a href="OurServices.html">Our Services</a>
+        <a href="Calculator.html">Calculator</a>
+        <a href="Contact.html">Contact</a>
+    </div>
+    
+    <div class="logo">
+        <br>
+        <img src="logo.png" style="width:20%; height:20%;">
+    </div>
+        
+    
+    <div style="padding-left: 16px;">
+        <br>
+        <br>
+        <br>
+        <h1>Welcome to G3 Consultancy Website </h1>
+        <p1>Currently under maintenance</p1>
+    
+    </div>
+    
+    <div class="footer">
+        <p>G3 Consultancy Web Services</p>
+        <p>Contact us: <a href="mailto:122108553@umail.ucc.ie">122108553@umail.ucc.ie</a></p>
+    </div>
+        <h2 style="text-align:center;">Contact us</h2>
+        <h3 style="text-align:center;">If you have any questions please don't hesitate to contact us!</h3>
+
+</body>
+</html>
