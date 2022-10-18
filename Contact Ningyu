@@ -1,4 +1,4 @@
-<!-- This began to be written for Ningyu Jiang. -->
+<!-- NY -->
 <!DOCTYPE html>
 <html>
 <html lang="en-IE"
@@ -6,87 +6,157 @@
 <title>Contact</title>
 <style>
     body {
-        margin: 0;
-        font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #a4ccd3;
     }
     
     
     .topnav {
-        overflow: hidden;
-        background-color: #a4ccd3;
-    }
-    
-    .topnav {
-        float: right;
-        color: aquamarine;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
+      overflow: hidden;
+      float: right;
+      margin: 0;
+      position: absolute;
+      right: 1rem;
+      top: 1rem;
+      color: aquamarine;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      color: white;
     }
     
     .topnav:hover {
-        background-color: Currently under maintenance;
-        color: black;
+        background-color: #76c6de;
+      color: black;
     }
     
     .topnav a.active {
         background-color: #ffffff;
         color: white;
     }
-    
+
+
     .footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background-color: #a4ccd3;
-        color: white;
-        text-align: center;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #a4ccd3;
+      color: white;
+      text-align: center;
     }
     
     .logo {
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
+      position: absolute;
+      left: 1rem;
+      top: 1rem;
+      width: 100%;
     }
-    
-    h2   {color: #a4ccd3;}
-    h3   {color: #a4ccd3;}
+
+    a{
+    text-decoration: none;
+    color: inherit;
+    }
+
+    h1   {color:#ffffff;
+        text-align: center;
+        background-image: url("contact.jpg");
+        background-size: 100% 100%;
+    }
+
+
 </style>
 </head>
 <body>
-    <div class="topnav">
-        <a href="Home.html">Home</a>
-        <a href="About_us.hmtl">About Us</a>
-        <a href="OurServices.html">Our Services</a>
-        <a href="Calculator.html">Calculator</a>
-        <a href="Contact.html">Contact</a>
-    </div>
+    <div>
+        <div class="topnav">
+          <a href="Home.html">Home</a>
+          <a href="About_us.hmtl">About Us</a>
+          <a href="OurServices.html">Our Services</a>
+          <a href="Calculator.html">Calculator</a>
+          <a href="Contact.html">Contact</a>
+      </div>
     
     <div class="logo">
         <br>
         <img src="logo.png" style="width:20%; height:20%;">
     </div>
-        
-    
-    <div style="padding-left: 16px;">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+    <h1>Contact Us!<br>
+    <br>
+    If you have any questions please don't hesitate to contact us!
+    <br>
+    <br>
+    </h1>
+       
+
+<style>
+p {
+    color: white;
+    border: 1px solid #a4ccd3;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-right: 370px;
+    margin-left: 430px;
+    background-color:#a4ccd3; 
+  }
+</style>
+<img src="contact2.jpg" style="width:1440px;height:300px;">
+    <p> <span style="line-height:2;">
+        <img src="contact1.jpg" alt="G3 Consultancy in Dublin" width="600" height="300"><br>
+        <strong>Dublin</strong><br>
+        Address: 3 Consultancy buildings, 2 Westmoreland Street, North City, Dublin, Ireland<br>
+        Postcode: D02 DX77<br>
+        Tel: +353 873745099<br>
+        Email: 122108553@umail.ucc.ie<br>
         <br>
+        <img src="contact3.jpg" alt="G3 Consultancy in BeiJing" width="600" height="300"><br>
+        <strong>BeiJing</strong><br>
+        Address: 3 Consultancy buildings, Chaoyang District, Beijing, China<br>
+        Postcode: 518053<br>
+        Tel:+353 858165560<br>
+        Email: 122114027@umail.ucc.ie<br>
         <br>
+        <img src="contact4.jpg" alt="G3 Consultancy in NewYork" width="600" height="300"><br>
+        <strong>NewYork</strong><br>
+        Adress: 3 Consultancy buildings, 15 Gold St, New York, U.S.<br>
+        Postcode: NY 12300<br>
+        Tel:+353 876741125<br>
+        Email: 122114027@umail.ucc.ie<br>
         <br>
-        <h1>Welcome to G3 Consultancy Website </h1>
-        <p1>Currently under maintenance</p1>
-    
-    </div>
-    
+        <img src="contact5.jpg" alt="G3 Consultancy in Tokyo" width="600" height="300"><br>
+        <strong>Tokyo</strong><br>
+        Adress: 3 Consultancy buildings, Chuo City, Ginza, Tokyo, Japanese<br>
+        Postcode: 104-6666<br>
+        Tel:+353 871684486<br>
+        Email: 122106842@umail.ucc.ie<br>
+        <br>
+        <img src="contact6.jpg" alt="G3 Consultancy in Sydney" width="600" height="300"><br>
+        <strong>Sydney</strong><br>
+        Adress: 3 Consultancy buildings, Phillips Ave, Canterbury, Sydney, Australia<br>
+        Postcode: NSW 2222<br>
+        Tel:+353 871759740<br>
+        Email: 12211410@umail.ucc.ie<br>
+        <br>
+    </p>
+    <br>
+    <br>
+
     <div class="footer">
-        <p>G3 Consultancy Web Services</p>
-        <p>Contact us: <a href="mailto:122108553@umail.ucc.ie">122108553@umail.ucc.ie</a></p>
+        <h4>G3 Consultancy Web Services</h4>
+        <h4>Contact us: <a href="mailto:122108553@umail.ucc.ie">122108553@umail.ucc.ie</a></h4>
     </div>
     <hr>
-        <h2 style="text-align:center;">Contact us</h2>
-        <h3 style="text-align:center;">If you have any questions please don't hesitate to contact us!</h3>
+
 
 </body>
 </html>
