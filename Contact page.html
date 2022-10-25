@@ -68,8 +68,8 @@
         color: white;
         margin-top: 100px;
         text-align: center;
-        background-image: url("contact.jpg");
-        background-size: 100% 100%;
+        background-image: url("contact.PNG");
+        background-size: 100% 100% ;
     }
 
     h2   {color:#ffffff;
@@ -82,8 +82,9 @@
        border: 1px solid #9fd0d8;
        margin-top: 50px;
        margin-bottom: 50px;
-       margin-right: 0px;
-       margin-left: 400px;
+       margin-left: auto;
+       margin-right: auto;
+       width: 60%;
        background-color:#9fd0d8;
      }
 
@@ -106,10 +107,11 @@
     }
 
     .contact-form-section  {
-        color: #9fd0d8;
-        font-size: 30px;
-        margin-left: 400px;
-        margin-right: 400px;
+        color: #6ab0bc;
+        font-size: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
         background-color:#ffffff;
         border-style: solid;
         border-width: medium;
@@ -117,7 +119,25 @@
         border-radius: 12px;
         padding: 5px;
         padding-left: 30px;
+    }
 
+    .button {
+       background-color: #9fd0d8;
+       border: 2px solid #6ab0bc;;
+       border-radius: 12px;
+       color: white;
+       padding: 10px 22px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-size: 18px;
+       margin: 4px 2px;
+       cursor: pointer;
+    }
+
+    .button1:hover {
+      background-color: gray;
+      color: white;
     }
 
 
@@ -127,11 +147,11 @@
 <body>
     <div class="container" style="height: 100vh">
         <div class="topnav">
-          <a class="nav-item" href="Home.html">Home</a>
-          <a class="nav-item" href="About_us.hmtl">About Us</a>
-          <a class="nav-item" href="OurServices.html"> Services</a>
-          <a class="nav-item" href="Calculator.html">Calculator</a>
-          <a class="nav-item" href="Contact.html">Contact</a>
+          <a class="nav-item" href="home.html">Home</a>
+          <a class="nav-item" href="about_us.hmtl">About Us</a>
+          <a class="nav-item" href="ourservices.html"> Services</a>
+          <a class="nav-item" href="calculator.html">Calculator</a>
+          <a class="nav-item" href="contact.html">Contact</a>
     </div>
     
     <div class="logo">
@@ -223,54 +243,51 @@
           <div class="sec-title">
             <div class="clearfix">
               <div class="pull-left">
-                <div class="title"> <strong>Send us a message</strong></div>
+                <div class="title"> <strong>Send us a message!</strong></div>
                 <br>
-              </div>
-              <div class="pull-right">
               </div>
             </div>
           </div>
+          </div>
           <div class="inner-container">
             <div class="contact-form">
-                <form name='contact' method='post' enctype='multipart/form-data' action='index.php' class="form-inline findus" id="contact-form">
-                <input name='enews' type='hidden' value='AddFeedback'>
-                <input type="hidden" name="ecmsfrom" value="/lianxiwomen/">
-                <input name='bid' type='hidden' value='1'>
-                <div class="row clearfix">
-                  <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                <form name="contact" method="post" enctype="multipart/form-data" class="form-inline findus" id="contact-form">
+                    <input name="enews" type="hidden" value="AddFeedback">
+                    <input name="ecmsfrom" type="hidden" value="contact us">
+                    <div class="row clearfix">
+                  <div>
                     <label>What would you like to ask about? *</label>
                     <input type="text" name="title" id="title" required>
                   </div>
-                  <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                  <div>
                     <label>Please describe your problem in detail *</label>
                     <textarea class="" name="saytext" id="saytext" required></textarea>
                   </div>
-                  <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                  <div>
                     <label>Name *</label>
                     <input type="text" name="name" id="name" required>
                   </div>
-                  <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                  <div>
                     <label>Compay name *</label>
                     <input type="text" name="company" id="company" required>
                   </div>
-                  <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                  <div>
                     <label>Email *</label>
                     <input type="email" name="email" id="email" required>
                   </div>
-                  <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                  <div>
                     <label>Phone number *</label>
                     <input type="text" name="mycall" id="mycall" required>
                   </div>
-                  <div class="col-lg-12 col-md-12 col-sm-12 text-center form-group">
-                    <button class="theme-btn submit-btn" type="submit" name="submit">submit <span class="arrow flaticon-next-8"></span></button>
+                  <div>
+                  <button class="button button1">Submit</button>
                   </div>
-                </div>
               </form>
             </div>
           </div>
         </div>
       </section>
-    <br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
 
 
     <div class="footer">
@@ -282,4 +299,5 @@
       </div>
 
 </body>
+
 </html>
