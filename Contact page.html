@@ -2,7 +2,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Contact</title>
 <style>
     * {
@@ -84,26 +86,37 @@
     }
 
 
-    h3   {font-size: 2vw;
+    h3   {
+       font-size: 2vw;
        color: white;
-       border: 1px solid #9fd0d8;
-       margin-top: 50px;
-       margin-bottom: 50px;
        margin-left: auto;
        margin-right: auto;
-       width: 60%;
+       width: 50%;
        background-color:#9fd0d8;
+       line-height: 2;
+     }
+
+     h4 {
+      font-size: 2vw;
+      text-align: center;
+      color: #6ab0bc
      }
 
 
     ul   {
-        color:#ffffff;
-        position: relative;
-        display: block;
-        overflow: hidden;
         font-size: 2vw;
         list-style-type:circle;
-        margin-left: 45%;
+        margin-left: 40%;
+        margin-right: 40%;
+        background: #6ab0bc;
+        padding: 20px;
+    }
+
+    ul li {
+       background: #a5cbd1;
+       color:#ffffff;;
+       margin: 5px;
+       text-align: center;
     }
 
     .photo {
@@ -111,45 +124,76 @@
       height: 500px;
     }
 
-    .contact-form-section  {
-        color: #6ab0bc;
-        font-size: 2vw;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        background-color:#ffffff;
-        border-style: solid;
-        border-width: medium;
-        border-color:#6ab0bc;
-        border-radius: 12px;
-        padding: 5px;
-        padding-left: 3%;
+
+     input[type=text], select, textarea {
+       width: 100%;
+       padding: 12px;
+       border: 1px solid #ccc;
+       border-radius: 4px;
+       resize: vertical;
     }
 
-    .button {
-       background-color: #9fd0d8;
-       border: 2px solid #6ab0bc;;
-       border-radius: 12px;
-       color: white;
-       padding: 10px 22px;
-       text-align: center;
-       text-decoration: none;
+     label {
+       padding: 12px 12px 12px 0;
        display: inline-block;
-       font-size: 1.2vw;
-       margin: 4px 2px;
-       cursor: pointer;
     }
 
-    .button1:hover {
-      background-color: gray;
-      color: white;
+     input[type=submit] {
+       background-color: #6ab0bc;
+       color: white;
+       padding: 12px 20px;
+       border: none;
+       border-radius: 4px;
+       cursor: pointer;
+       float: right;
     }
-    
+
+     input[type=submit]:hover {
+       background-color: #9fd0d8;
+    }
+
+     .container {
+       border-radius: 20px;
+       background-color: #f2f2f2;
+       padding: 20px;
+       width: 60%;
+       margin-left: auto;
+       margin-right: auto;
+       }
+
+     .form-1 {
+       float: left;
+       width: 20%;
+       margin-top: 6px;
+       margin-left: 8%;
+       font-size: 1.3vw;
+    }
+
+     .form-2 {
+       float: left;
+       width: 60%;
+       margin-top: 6px;
+    }
+
+   /* Clear floats after the columns */
+   .row:after {
+     content: "";
+     display: table;
+     clear: both;
+    }
+
+   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+   @media screen and (max-width: 600px) {
+   .form-1, .form-2, input[type=submit] {
+     width: 100%;
+     margin-top: 0;
+   }
+  }
 </style>
 </head>
 
 <body>
-    <div class="container" style="height: 100vh">
+    <div style="height: 100vh">
         <div class="topnav">
           <a class="nav-item" href="home.html">Home</a>
           <a class="nav-item" href="about_us.hmtl">About Us</a>
@@ -171,8 +215,11 @@
     </h1>
 </div>
 
-    <h2>Our worldwide subsidiaries are located in:</h2>
+<div>
+   <h2>Our worldwide subsidiaries are located in:</h2>
+</div>
 
+<div>
     <ul>
         <li>Dublin</li>
         <li>BeiJing</li>
@@ -180,12 +227,13 @@
         <li>Tokyo</li>
         <li>Sydney</li>
     </ul> 
+</div>    
 
+<div>
 <img src="contact1.JPEG" alt="G3 Consultancy in Dublin" height="500" class="photo"><br>
-
-    <h3> <span style="line-height:2;"></span>
+    <h3>
         <strong>Dublin</strong><br>
-        Address: 2 Westmoreland Street, North City, Dublin, Ireland<br>
+        Address: 2 Westmoreland Street, Dublin, Ireland<br>
         Postcode: D02 DX77<br>
         Tel: +353 873745099<br>
         Postcode: D02 DX77<br>
@@ -195,8 +243,7 @@
     <br>
 
 <img src="contact2.JPEG" alt="G3 Consultancy in BeiJing" class="photo"><br>
-
-    <h3> <span style="line-height:2;"></span>
+    <h3>
         <strong>BeiJing</strong><br>
         Address: East Third Ring Road, Beijing, China<br>
         Postcode: 518053<br>
@@ -207,10 +254,9 @@
     <br>
 
 <img src="contact3.JPEG" alt="G3 Consultancy in NewYork" class="photo"><br>
-
-    <h3> <span style="line-height:2;"></span>
+    <h3>
         <strong>NewYork</strong><br>
-        Adress: 15 Gold St, New York, U.S.<br>
+        Adress: 15 Gold St, New York, USA<br>
         Postcode: NY 12300<br>
         Tel:+353 876741125<br>
         Email: 122114027@umail.ucc.ie<br>
@@ -219,8 +265,7 @@
     <br>
 
     <img src="contact4.JPEG" alt="G3 Consultancy in Tokyo" class="photo"><br>
-
-    <h3> <span style="line-height:2;"></span>
+    <h3>
         <strong>Tokyo</strong><br>
         Adress: Chuo City, Ginza, Tokyo, Japanese<br>
         Postcode: 104-6666<br>
@@ -231,73 +276,98 @@
     <br>
 
 <img src="contact5.JPEG" alt="G3 Consultancy in Sydney" class="photo"><br>
-
-    <h3> <span style="line-height:2;"></span>
+    <h3>
         <strong>Sydney</strong><br>
         Adress: Phillips Ave, Canterbury, Sydney, Australia<br>
         Postcode: NSW 2222<br>
         Tel:+353 871759740<br>
         Email: 122111410@umail.ucc.ie<br>
     </h3>
+</div>
 
+<div class="container">
+  <form action="/action_page.php">
+  <div>
+      <h4><strong> Get in contact with us!</strong></h4>
+  </div>
 
-    <section class="contact-form-section">
-        <div class="auto-container">
-          <div class="sec-title">
-            <div class="clearfix">
-              <div class="pull-left">
-                <div class="title"> <strong>Send us a message!</strong></div>
-                <br>
-              </div>
-            </div>
-          </div>
-          </div>
-          <div class="inner-container">
-            <div class="contact-form">
-                <form name="contact" method="post" enctype="multipart/form-data" class="form-inline findus" id="contact-form">
-                    <input name="enews" type="hidden" value="AddFeedback">
-                    <input name="ecmsfrom" type="hidden" value="contact us">
-                    <div class="row clearfix">
-                  <div>
-                    <label>What would you like to ask about? *</label>
-                    <input type="text" name="title" id="title" required>
-                  </div>
-                  <div>
-                    <label>Please describe your problem in detail *</label>
-                    <textarea class="" name="saytext" id="saytext" required></textarea>
-                  </div>
-                  <div>
-                    <label>Name *</label>
-                    <input type="text" name="name" id="name" required>
-                  </div>
-                  <div>
-                    <label>Compay name *</label>
-                    <input type="text" name="company" id="company" required>
-                  </div>
-                  <div>
-                    <label>Email *</label>
-                    <input type="email" name="email" id="email" required>
-                  </div>
-                  <div>
-                    <label>Phone number *</label>
-                    <input type="text" name="mycall" id="mycall" required>
-                  </div>
-                  <div>
-                  <button class="button button1">Submit</button>
-                  </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
+  <div class="row">
+    <div class="form-1">
+      <label for="name">Name *</label>
+    </div>
+    <div class="form-2">
+      <input type="text" id="name" name="fullname" placeholder="Your name.." required>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="form-1">
+      <label for="companyname">Company Name</label>
+    </div>
+    <div class="form-2">
+      <input type="text" id="companyname" name="companyname" placeholder="Your company name.." required>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="form-1">
+      <label for="country">Country *</label>
+    </div>
+    <div class="form-2">
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="china">China</option>
+        <option value="ireland">Ireland</option>
+        <option value="japanese">Japanese</option>
+        <option value="usa">USA</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="form-1">
+      <label for="email">Email *</label>
+    </div>
+    <div class="form-2">
+      <input type="text" id="email" name="email" placeholder="Your email is..." required>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="form-1">
+      <label for="phonenumber">Phone number *</label>
+    </div>
+    <div class="form-2">
+      <input type="text" id="phonenumber" name="phonenumber" placeholder="Your phone number is..." required>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="form-1">
+      <label for="question">Questions *</label>
+    </div>
+    <div class="form-2">
+      <textarea id="question" name="question" placeholder="Write something.." style="height: 150px" required></textarea>
+    </div>
+  </div>
+
+  <br>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+</div>
+
     <br>
-    <div class="footer">
+
+     <div class="footer">
         <p>Terms of use | About Us | Privacy | Cookies</p>
         <p>
           Contact us:
           <a href="mailto:122108553@umail.ucc.ie">122108553@umail.ucc.ie</a>
         </p>
-      </div>
+    </div>
 
 </body>
 </html>
+<!-- NY -->
