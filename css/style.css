@@ -1,132 +1,120 @@
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #9fd0d8;
-  }
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
 
-  h1 {
-    font-size: 1.8rem;
-    text-align: center;
-    color: white;
-    margin-top: 100px;
-  }
+h1 {
+  font-size: 1.8rem;
+  text-align: center;
+  color: #5b7c81;
+  margin-top: 100px;
+}
 
-  h3 {
-    text-align: center;
-    color: white;
-  }
+h3 {
+  text-align: center;
+  color: #5b7c81;
+}
 
-  .topnav {
-    overflow: hidden;
-    float: right;
-    margin: 0;
-    position: absolute;
-    right: 1rem;
-    top: 1rem;
-    color: aquamarine;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    color: white;
-  }
+.topnav {
+  overflow: hidden;
+  float: right;
+  margin: 0;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  color: aquamarine;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #5b7c81;
+}
 
-  .topnav:hover {
-    background-color: #76c6de;
-    color: black;
-  }
+.topnav:hover {
+  background-color: #76c6de;
+  color: black;
+}
 
-  .topnav a.active {
-    background-color: #ffffff;
-    color: white;
-  }
+.topnav a.active {
+  background-color: #ffffff;
+  color: white;
+}
 
-  .nav-item {
-    margin: 14px;
-  }
+.nav-item {
+  margin: 14px;
+}
 
-  .footer {
-    position: absolute;
-    left: 0;
-    bottom: -100px;
-    width: 100%;
-    background-color: #6ab0bc;
-    color: white;
-    text-align: center;
-  }
 
-  .logo {
-    position: absolute;
-    left: 1.5rem;
-    top: 1rem;
-    width: 100%;
-  }
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: -300px;
+  width: 100%;
+  background-color: #6ab0bc;
+  color: white;
+  text-align: center;
+}
 
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
+.logo {
+  position: absolute;
+  left: 1.5rem;
+  top: 1rem;
+  width: 100%;
+}
 
-  .card_container {
-    position: relative;
-    padding: 1px;
-    margin: auto;
-    text-align: center;
-    margin-top: auto;
-  }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
-  .square1 {
-    /*position: relative;*/
-    width: 200px;
-    height: 250px;
-    background-color: white;
-    border-style: inherit;
-    border-color: #6ab0bc;
-    border-radius: 5px;
-    padding: 1px;
-    margin: 40px;
-    display: inline-block;
-    /*margin-top: 230px;
-    margin-left: 300px;*/
-    text-align: auto;
-  }
 
-  .square2 {
-    /* position: relative; */
-    width: 200px;
-    height: 250px;
-    background-color: white;
-    border-style: inherit;
-    border-color: #6ab0bc;
-    border-radius: 5px;
-    padding: 1px;
-    margin: 40px;
-    display: inline-block;
-    text-align: auto;
-    /*margin-top: -250px;
-    margin-left: 500px;  */
-  }
 
-  .square3 {
-    /*position: relative;*/
-    width: 200px;
-    height: 250px;
-    background-color: white;
-    border-style: inherit;
-    border-color: #6ab0bc;
-    border-radius: 5px;
-    padding: 1px;
-    margin: 40px;
-    display: inline-block;
-    text-align: auto;
-    /*margin-top: -250px;
-    margin-left: 900px;*/
-  }
+.card_container {
+  position: relative;
+  padding: 1px;
+  margin: auto;
+  text-align: center;
+  margin-top: auto;
+}
 
-  h4 {
-    position: absolute;
-    text-align: justify;
-    margin-left: 60px;
-    margin-top: 200px;
-    color: #6ab0bc;
-  }
+.square {
+  /*position: relative;*/
+  width: 200px;
+  background-color: #9fd0d8;
+  border-style: inherit;
+  border-color: #6ab0bc;
+  border-radius: 5px;
+  padding: 1px;
+  margin: 40px;
+  display: inline-block;
+  /*margin-top: 230px;
+  margin-left: 300px;*/
+  text-align: auto;
+}
+
+#square1 {
+  max-height: fit-content;
+}
+
+#square2 {
+  max-height: fit-content;
+}
+
+#square3 {
+  max-height: fit-content;
+
+}
+
+
+.square-img {
+  margin-top: 20px;
+  max-width: 50%;
+  padding: 4px;
+}
+
+
+h4 {
+  text-align: center;
+  color: white;
+}
