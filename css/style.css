@@ -2,16 +2,25 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background-color: white;
+  align-items: center;
+
 }
 
 h1 {
-  font-size: 1.8rem;
+  font-size: 3.5rem;
   text-align: center;
   color: #5b7c81;
   margin-top: 100px;
 }
 
+h2 {
+  font-size: 1.9rem;
+  text-align: center;
+  color: #5b7c81;
+}
+
 h3 {
+  font-size: 1.4rem;
   text-align: center;
   color: #5b7c81;
 }
@@ -47,13 +56,14 @@ h3 {
 
 
 .footer {
-  position: absolute;
   left: 0;
   bottom: -300px;
   width: 100%;
+  padding: 1px;
   background-color: #6ab0bc;
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
+  font-size: 16;
 }
 
 .logo {
@@ -68,7 +78,49 @@ a {
   color: inherit;
 }
 
-
+#slider {
+  overflow: hidden;
+}
+#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+#slider figure img {
+  width: 20%;
+  float: left;
+}
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
 
 .card_container {
   position: relative;
@@ -113,8 +165,33 @@ a {
   padding: 4px;
 }
 
+.paragraph {
+  text-align: center;
+  color: #5b7c81;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.9rem;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.mainbody {
+  text-align: center;
+  color: #5b7c81;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  margin-left: 150px;
+  margin-right: 150px;
+}
 
 h4 {
   text-align: center;
   color: white;
+}
+.heading {
+  text-align: center;
+  color: #5b7c81;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.9rem;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 5px;
 }
