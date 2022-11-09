@@ -1,373 +1,447 @@
-<!-- NY -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Contact</title>
-<style>
-    * {
-      box-sizing: border-box;
-    }
-    
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background-color:#9fd0d8;
-    }
-    
-    .topnav {
-      overflow: hidden;
-      float: right;
-      margin: 0;
-      position: absolute;
-      right: 1rem;
-      top: 1rem;
-      color: aquamarine;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-      color: white;
-    }
-    
-    .topnav:hover {
-        background-color: #76c6de;
-        color: black;
-    }
-    
-    .topnav a.active {
-        background-color: #ffffff;
+  <!-- NY -->
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact</title>
+  <style>
+      * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color:#9fd0d8;
+      }
+      
+      .topnav {
+        overflow: hidden;
+        float: right;
+        margin: 0;
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+        color: aquamarine;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
         color: white;
-    }
-
-    .nav-item {
-        margin: 14px;
-    }
-
-    .footer {
-        left: 0;
-        bottom:0;
-        width: 100%;
+      }
+      
+      .topnav:hover {
+          background-color: #76c6de;
+          color: black;
+      }
+      
+      .topnav a.active {
+          background-color: #ffffff;
+          color: white;
+      }
+  
+      .nav-item {
+          margin: 14px;
+      }
+  
+      .footer {
+          left: 0;
+          bottom:0;
+          width: 100%;
+          background-color: #6ab0bc;
+          color: white;
+          text-align: center;
+          padding: 3px;
+        }
+      
+      
+      .logo {
+        position: absolute;
+        left: 1.5rem;
+        top: 1rem;
+        height: 40px;
+      }
+  
+      a  {text-decoration: none;
+          color: inherit;
+      }
+  
+      h1   {
+          font-size: 3vw;
+          text-align: center;
+          color: white;
+          margin-top: 100px;
+          text-align: center;
+      }
+  
+      h2   {
+          font-size: 2vw;
+          color:#ffffff;
+          text-align: center;
+      }
+  
+  
+      h3   {
+         font-size: 2vw;
+         color: white;
+         margin-left: auto;
+         margin-right: auto;
+         width: 50%;
+         background-color:#9fd0d8;
+         line-height: 2;
+       }
+  
+       h4 {
+        font-size: 2vw;
+        text-align: center;
+        color: #6ab0bc
+       }
+  
+       div.gallery {
+          border: 1px solid #ccc;
+       }
+  
+       div.gallery:hover {
+          border: 1px solid #777;
+       }
+  
+       div.gallery img {
+          width: 100%;
+          height: auto;
+       }
+  
+       div.desc {
+          padding: 15px;
+          text-align: center;
+          color:#ffffff;
+       }
+  
+       .responsive {
+          float: left;
+          width: 20%;
+       }
+  
+       @media only screen and (max-width: 700px) {
+       .responsive {
+         width: 49.99999%;
+         margin: 6px 0;
+         }
+       }
+  
+       @media only screen and (max-width: 500px) {
+       .responsive {
+         width: 100%;
+         }
+       }
+  
+       .clearfix:after {
+         content: "";
+         display: table;
+         clear: both;
+       }
+  
+       #address {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        text-align: center;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+       }
+  
+       #address td, address th {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+  
+      #address tr:nth-child(even){background-color: #f2f2f2;}
+  
+      #address tr:hover {background-color: #ddd;}
+  
+      #address th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
         background-color: #6ab0bc;
         color: white;
-        text-align: center;
-        padding: 3px;
       }
-    
-    
-    .logo {
-      position: absolute;
-      left: 1.5rem;
-      top: 1rem;
-      height: 40px;
-    }
-
-    a  {text-decoration: none;
-        color: inherit;
-    }
-        
-
-    h1   {
-        font-size: 3vw;
-        text-align: center;
-        color: white;
-        margin-top: 100px;
-        text-align: center;
-        background-image: url("img/contact.PNG");
-        background-size: 100% 100% ;
-    }
-
-    h2   {
-        font-size: 2vw;
-        color:#ffffff;
-        text-align: center;
-    }
-
-
-    h3   {
-       font-size: 2vw;
-       color: white;
-       margin-left: auto;
-       margin-right: auto;
-       width: 50%;
-       background-color:#9fd0d8;
-       line-height: 2;
-     }
-
-     h4 {
-      font-size: 2vw;
-      text-align: center;
-      color: #6ab0bc
-     }
-
-
-    ul   {
-        font-size: 2vw;
-        list-style-type:circle;
-        margin-left: 40%;
-        margin-right: 40%;
-        background: #6ab0bc;
-        padding: 20px;
-    }
-
-    ul li {
-       background: #a5cbd1;
-       color:#ffffff;;
-       margin: 5px;
-       text-align: center;
-    }
-
-    .photo {
-      width: 100%;
-      height: 500px;
-    }
-
-
-     input[type=text], select, textarea {
+  
+       input[type=text], select, textarea {
+         width: 100%;
+         padding: 12px;
+         border: 1px solid #ccc;
+         border-radius: 4px;
+         resize: vertical;
+      }
+  
+       label {
+         padding: 12px 12px 12px 0;
+         display: inline-block;
+      }
+  
+       input[type=submit] {
+         background-color: #6ab0bc;
+         color: white;
+         padding: 12px 20px;
+         border: none;
+         border-radius: 4px;
+         cursor: pointer;
+         float: right;
+      }
+  
+       input[type=submit]:hover {
+         background-color: #9fd0d8;
+      }
+  
+       .container {
+         border-radius: 20px;
+         background-color: #f2f2f2;
+         padding: 20px;
+         width: 90%;
+         margin-left: auto;
+         margin-right: auto;
+         }
+  
+       .form-1 {
+         float: left;
+         width: 20%;
+         margin-top: 6px;
+         margin-left: 8%;
+         font-size: 1.3vw;
+      }
+  
+       .form-2 {
+         float: left;
+         width: 60%;
+         margin-top: 6px;
+      }
+  
+     /* Clear floats after the columns */
+      .row:after {
+       content: "";
+       display: table;
+       clear: both;
+      }
+  
+     /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+     @media screen and (max-width: 600px) {
+      .form-1, .form-2, input[type=submit] {
        width: 100%;
-       padding: 12px;
-       border: 1px solid #ccc;
-       border-radius: 4px;
-       resize: vertical;
+       margin-top: 0;
+     }
     }
-
-     label {
-       padding: 12px 12px 12px 0;
-       display: inline-block;
-    }
-
-     input[type=submit] {
-       background-color: #6ab0bc;
-       color: white;
-       padding: 12px 20px;
-       border: none;
-       border-radius: 4px;
-       cursor: pointer;
-       float: right;
-    }
-
-     input[type=submit]:hover {
-       background-color: #9fd0d8;
-    }
-
-     .container {
-       border-radius: 20px;
-       background-color: #f2f2f2;
-       padding: 20px;
-       width: 60%;
-       margin-left: auto;
-       margin-right: auto;
-       }
-
-     .form-1 {
-       float: left;
-       width: 20%;
-       margin-top: 6px;
-       margin-left: 8%;
-       font-size: 1.3vw;
-    }
-
-     .form-2 {
-       float: left;
-       width: 60%;
-       margin-top: 6px;
-    }
-
-   /* Clear floats after the columns */
-   .row:after {
-     content: "";
-     display: table;
-     clear: both;
-    }
-
-   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-   @media screen and (max-width: 600px) {
-   .form-1, .form-2, input[type=submit] {
-     width: 100%;
-     margin-top: 0;
-   }
-  }
-</style>
-</head>
-
-<body>
-    <div style="height: 100vh">
-        <div class="topnav">
-          <a class="nav-item" href="home.html">Home</a>
-          <a class="nav-item" href="about_us.hmtl">About Us</a>
-          <a class="nav-item" href="ourservices.html"> Services</a>
-          <a class="nav-item" href="calculator.html">Calculator</a>
-          <a class="nav-item" href="contact.html">Contact</a>
+  </style>
+  </head>
+  
+  <body>
+      <div style="height: 100vh">
+          <div class="topnav">
+            <a class="nav-item" href="home.html">Home</a>
+            <a class="nav-item" href="about_us.hmtl">About Us</a>
+            <a class="nav-item" href="ourservices.html"> Services</a>
+            <a class="nav-item" href="calculator.html">Calculator</a>
+            <a class="nav-item" href="contact.html">Contact</a>
+      </div>
+      
+      <div class="logo">
+          <br>
+          <img src="img/logo.png" class="logo";">
+      </div>
+  <br>
+  
+  <div>
+      <h1>
+      Contact Us!
+      </h1>
+  </div>
+  
+  <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="img/contact1.JPEG">
+          <img src="img/contact1.JPEG" alt="G3 Consultancy in Dublin" width="600" height="400">
+        </a>
+        <div class="desc">Dublin</div>
+      </div>
     </div>
     
-    <div class="logo">
-        <br>
-        <img src="img/logo.png" class="logo";">
+    
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="img/contact2.JPEG">
+          <img src="img/contact2.JPEG" alt="G3 Consultancy in BeiJing" width="600" height="400">
+        </a>
+        <div class="desc">BeiJing</div>
+      </div>
     </div>
-<br>
-
-<div>
-    <h1><br>
-    Contact Us!<br>
-    <br>
-    </h1>
-</div>
-
-<div>
-   <h2>Our worldwide subsidiaries are located in:</h2>
-</div>
-
-<div>
-    <ul>
-        <li>Dublin</li>
-        <li>BeiJing</li>
-        <li>NewYork</li>
-        <li>Tokyo</li>
-        <li>Sydney</li>
-    </ul> 
-</div>    
-
-<div>
-<img src="img/contact1.JPEG" alt="G3 Consultancy in Dublin" height="500" class="photo"><br>
-    <h3>
-        <strong>Dublin</strong><br>
-        Address: 2 Westmoreland Street, Dublin, Ireland<br>
-        Postcode: D02 DX77<br>
-        Tel: +353 873745099<br>
-        Postcode: D02 DX77<br>
-        Email: 122108553@umail.ucc.ie<br>
-    </h3>
-
-    <br>
-
-<img src="img/contact2.JPEG" alt="G3 Consultancy in BeiJing" class="photo"><br>
-    <h3>
-        <strong>BeiJing</strong><br>
-        Address: East Third Ring Road, Beijing, China<br>
-        Postcode: 518053<br>
-        Tel:+353 858165560<br>
-        Email: 122114027@umail.ucc.ie<br>
-    </h3>
-
-    <br>
-
-<img src="img/contact3.JPEG" alt="G3 Consultancy in NewYork" class="photo"><br>
-    <h3>
-        <strong>NewYork</strong><br>
-        Adress: 15 Gold St, New York, USA<br>
-        Postcode: NY 12300<br>
-        Tel:+353 876741125<br>
-        Email: 122114027@umail.ucc.ie<br>
-    </h3>
-
-    <br>
-
-    <img src="img/contact4.JPEG" alt="G3 Consultancy in Tokyo" class="photo"><br>
-    <h3>
-        <strong>Tokyo</strong><br>
-        Adress: Chuo City, Ginza, Tokyo, Japanese<br>
-        Postcode: 104-6666<br>
-        Tel:+353 871684486<br>
-        Email: 122106842@umail.ucc.ie<br>
-    </h3>
-
-    <br>
-
-<img src="img/contact5.JPEG" alt="G3 Consultancy in Sydney" class="photo"><br>
-    <h3>
-        <strong>Sydney</strong><br>
-        Adress: Phillips Ave, Canterbury, Sydney, Australia<br>
-        Postcode: NSW 2222<br>
-        Tel:+353 871759740<br>
-        Email: 122111410@umail.ucc.ie<br>
-    </h3>
-</div>
-
-<div class="container">
-  <form action="/action_page.php">
+    
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="img/contact3.JPEG">
+          <img src="img/contact3.JPEG" alt="G3 Consultancy in NewYork" width="600" height="400">
+        </a>
+        <div class="desc">NewYork</div>
+      </div>
+    </div>
+    
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="img/contact4.JPEG">
+          <img src="img/contact4.JPEG" alt="G3 Consultancy in Tokyo" width="600" height="400">
+        </a>
+        <div class="desc">Tokyo</div>
+      </div>
+    </div>
+  
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="img/contact5.JPEG">
+          <img src="img/contact5.JPEG" alt="G3 Consultancy in Sydney" width="600" height="400">
+        </a>
+        <div class="desc">Sydney</div>
+      </div>
+    </div>
+    
+    <div class="clearfix"></div>
+  <br><br>  
+  
   <div>
-      <h4><strong> Get in contact with us!</strong></h4>
+     <h2>Our contact details:</h2>
   </div>
-
-  <div class="row">
-    <div class="form-1">
-      <label for="name">Name *</label>
-    </div>
-    <div class="form-2">
-      <input type="text" id="name" name="fullname" placeholder="Your name.." required>
-    </div>
+  
+  <div>
+    <table id="address">
+      <tr>
+        <th>City</th>
+        <th>Address</th>
+        <th>Postcode</th>
+        <th>Phone Number</th>
+        <th>Email</th>
+      </tr>
+      <tr>
+        <td>Dublin</td>
+        <td>2 Westmoreland Street, Dublin, Ireland</td>
+        <td>D02 DX77</td>
+        <td>+353 873745099</td>
+        <td>122108553@umail.ucc.ie</td>
+      </tr>
+      <tr>
+        <td>BeiJing</td>
+        <td>East Third Ring Road, Beijing, China</td>
+        <td>518053</td>
+        <td>+353 858165560</td>
+        <td>122114027@umail.ucc.ie</td>
+      </tr>
+      <tr>
+        <td>NewYork</td>
+        <td> 15 Gold St, New York, USA</td>
+        <td>NY 12300</td>
+        <td>+353 876741125</td>
+        <td>122114027@umail.ucc.ie</td>
+      </tr>
+      <tr>
+        <td>Tokyo</td>
+        <td>Chuo City, Ginza, Tokyo, Japanese</td>
+        <td>104-6666</td>
+        <td>+353 871684486</td>
+        <td>122106842@umail.ucc.ie</td>
+      </tr>
+      <tr>
+        <td>Sydney</td>
+        <td>Phillips Ave, Canterbury, Sydney, Australia</td>
+        <td>NSW 2222</td>
+        <td>++353 871759740</td>
+        <td>122111410@umail.ucc.ie</td>
+      </tr>
+    </table>
   </div>
-
-  <div class="row">
-    <div class="form-1">
-      <label for="companyname">Company Name</label>
+  
+  <br><br><br>
+  
+  <div class="container">
+    <form action="/action_page.php">
+    <div>
+        <h4><strong> Get in contact with us!</strong></h4>
     </div>
-    <div class="form-2">
-      <input type="text" id="companyname" name="companyname" placeholder="Your company name.." required>
+  
+    <div class="row">
+      <div class="form-1">
+        <label for="name">Name *</label>
+      </div>
+      <div class="form-2">
+        <input type="text" id="name" name="fullname" placeholder="Your name.." required>
+      </div>
     </div>
-  </div>
-
-  <div class="row">
-    <div class="form-1">
-      <label for="country">Country *</label>
+  
+    <div class="row">
+      <div class="form-1">
+        <label for="companyname">Company Name</label>
+      </div>
+      <div class="form-2">
+        <input type="text" id="companyname" name="companyname" placeholder="Your company name.." required>
+      </div>
     </div>
-    <div class="form-2">
-      <select id="country" name="country">
-        <option value="australia">Australia</option>
-        <option value="china">China</option>
-        <option value="ireland">Ireland</option>
-        <option value="japanese">Japanese</option>
-        <option value="usa">USA</option>
-      </select>
+  
+    <div class="row">
+      <div class="form-1">
+        <label for="country">Country *</label>
+      </div>
+      <div class="form-2">
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="china">China</option>
+          <option value="ireland">Ireland</option>
+          <option value="japanese">Japanese</option>
+          <option value="usa">USA</option>
+        </select>
+      </div>
     </div>
-  </div>
-
-  <div class="row">
-    <div class="form-1">
-      <label for="email">Email *</label>
+  
+    <div class="row">
+      <div class="form-1">
+        <label for="email">Email *</label>
+      </div>
+      <div class="form-2">
+        <input type="text" id="email" name="email" placeholder="Your email is..." required>
+      </div>
     </div>
-    <div class="form-2">
-      <input type="text" id="email" name="email" placeholder="Your email is..." required>
+  
+    <div class="row">
+      <div class="form-1">
+        <label for="phonenumber">Phone number *</label>
+      </div>
+      <div class="form-2">
+        <input type="text" id="phonenumber" name="phonenumber" placeholder="Your phone number is..." required>
+      </div>
     </div>
-  </div>
-
-  <div class="row">
-    <div class="form-1">
-      <label for="phonenumber">Phone number *</label>
+  
+    <div class="row">
+      <div class="form-1">
+        <label for="question">Questions *</label>
+      </div>
+      <div class="form-2">
+        <textarea id="question" name="question" placeholder="Write something.." style="height: 150px" required></textarea>
+      </div>
     </div>
-    <div class="form-2">
-      <input type="text" id="phonenumber" name="phonenumber" placeholder="Your phone number is..." required>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="form-1">
-      <label for="question">Questions *</label>
-    </div>
-    <div class="form-2">
-      <textarea id="question" name="question" placeholder="Write something.." style="height: 150px" required></textarea>
-    </div>
-  </div>
-
-  <br>
-  <div class="row">
-    <input type="submit" value="Submit">
-  </div>
-  </form>
-</div>
-
+  
     <br>
-
-     <div class="footer">
-        <p>Terms of use | About Us | Privacy | Cookies</p>
-        <p>
-          Contact us:
-          <a href="mailto:122108553@umail.ucc.ie">122108553@umail.ucc.ie</a>
-        </p>
+    <div class="row">
+      <input type="submit" value="Submit">
     </div>
-
-</body>
-</html>
-<!-- NY -->
+    </form>
+  </div>
+  
+      <br>
+  
+       <div class="footer">
+          <p>Terms of use | About Us | Privacy | Cookies</p>
+          <p>
+            Contact us:
+            <a href="mailto:122108553@umail.ucc.ie">122108553@umail.ucc.ie</a>
+          </p>
+      </div>
+  
+  </body>
+  </html>
+  <!-- NY -->
