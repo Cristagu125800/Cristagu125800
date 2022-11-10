@@ -67,7 +67,8 @@ h3 {
 }
 
 .logo {
-  position: absolute;
+  position: relative;
+  margin-left: 1px;
   left: 1.5rem;
   top: 1rem;
   width: 100%;
@@ -195,3 +196,4 @@ h4 {
   margin-right: 200px;
   padding: 5px;
 }
+
