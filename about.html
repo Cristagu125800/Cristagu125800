@@ -1,238 +1,151 @@
 <!-- Zhang Ran 122111410-->
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>    
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="css/style.css">
 <title>About us</title>
 <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background-color:white;
-    }
-    
-    .topnav {
-      overflow: hidden;
-      float: right;
-      margin: 0;
-      position: absolute;
-      right: 1rem;
-      top: 1rem;
-      color: aquamarine;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-      background-color:white;
-    }
-    
-    .topnav:hover {
-        background-color:white;
-        color: black;
-    }
-    
-    .topnav a.active {
-        background-color:white;
-        color:white;
-    }
+h4 {
+  font-size: 35px;
+  color: #5b7c81;
+  text-align: left;
+}
 
-    .nav-item {
-        margin: 14px;
-    }
+h5 {
+  font-size: 25px;
+  color: #5b7c81;
+}
 
-    .footer {
-        position: fixed;
-        left: 0;
-        bottom:0;
-        width: 100%;
-        background-color: #214147;
-        color: white;
-        text-align: center;
-      }
-    
-    
-    .logo {
-      position: absolute;
-      left: 1.5rem;
-      top: 1rem;
-      height: 40px;
-    }
+.photo {
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width:80%;
+}
 
-    a  {text-decoration: none;
-        color: white;
-    }
+.img2 {
+  float: left;
+  padding-right: 5%;
+}
 
-    h1   {
-        font-size: 3rem;
-        text-align: center;
-        color:#5b7c81;
-        margin-top: 100px;
-        text-align: center;
-        background-image: url("contact.jpg");
-        background-size: 100% 100%;
-    }
-
-    h2   {color:#5b7c81;
-        text-align: center;
-        font-size: 3rem
-    }
-
-
-    h3   {font-size: 30px;
-     color: #5b7c81;
-     margin-top: 1px;
-     margin-bottom: 120px;
-     margin-right: 100px;
-     margin-left: 100px;
-     text-align: center;
-
-     }
-
-     h4 {
-        position: absolute;
-        text-align: justify;
-        margin-left: 60px;
-        margin-top: 200px;
-        color: white;
-      }
-
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 </style>
 </head>
 
 <body>
-    <div class="container" style="height: 100vh">
-        <div class="topnav">
-          <a class="nav-item" style="color:#5b7c81" href="index.html">Home</a>
-          <a class="nav-item" style="color:#5b7c81" href="about.html">About Us</a>
-          <a class="nav-item" style="color:#5b7c81" href="services.html"> Services</a>
-          <a class="nav-item" style="color:#5b7c81" href="calculator.html">Calculator</a>
-          <a class="nav-item" style="color:#5b7c81" href="contact.html">Contact</a>
+  <div class="container">
+    <div class="logo">
+      <img src="img/logo.png" style="width: 20%; height: 20%" href="index.html" />
     </div>
     
-    <div class="logo">
-        <br>
-        <img src="img/Logo.png" class="logo";>
+    <div class="topnav">
+      <a class="nav-item" href="index.html">Home</a>
+      <a class="nav-item" href="about.hmtl">About Us</a>
+      <a class="nav-item" href="services.html"> Services</a>
+      <a class="nav-item" href="calculator.html">Calculator</a>
+      <a class="nav-item" href="contact.html">Contact</a>
     </div>
 <br>
 
-<html>
-<head>
-<style>
-a:link, a:visited {
-  color: white;
-  padding: 16px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-} text-align:center
-
-a:hover.a:active {
-  background-color: #5b7c81;
-}
-</style>
-</head>
-</html>
-
-
 <div>
-    <h1><br>
-     About Us<br>
-    <br>
-    <img src="img/OIF.jpg" alt="About us" width="800" height="600">
-    </h1>
+    <h1>About Us</h1>
+    <img src="img/OIF.jpg" alt="About us" width="100%" height="600">
 </div>
 
-    <h2>Our group members</h2>
-    <p style="text-align: center;">
-          <img src="img/aboutus1.jpg" alt="Ningyu Jiang" width="350" height="350">
-          </p>
-  
-      <h3>
-          <strong>Ningyu Jiang</strong><br>
-          Gender: Female<br>
-          Age: 24<br>
-          Nationality: Chinese<br>
-          Position: Consultant Representative<br>
-          EDescription: Ningyu is a consultant representative<br>
-          based in Dublin with 3 years of experience.<br>
-          She has worked with a number of companies <br>
-          and has gained recognition from clients.
-          <br>
-          <br>
-      </h3>
+    <h1>Our group members</h1>
+   
+  <div class="photo">
+    <div class="clearfix">
+      <img class="img2" src="img/aboutus1.jpg" alt="Ningyu Jiang" width="350" height="350">
+      <h4> Ningyu Jiang</h4>
+      <h5>
+      Gender: Female<br>
+      Age: 24<br>
+      Nationality: Chinese<br>
+      Position: Consultant Representative<br>
+      Ningyu is a consultant representative with 3 years of experience.<br>
+      She has worked with a number of companies and has gained recognition from clients.
+    </h5>
+  </div>
+</div>
 
-      <p style="text-align: center;">
-          <img src="img/aboutus2.jpg" alt="Julio García" width="350" height="350">
-          </p>
-  
-      <h3>
-          <strong>Julio García</strong><br>
-          Gender: male<br>
-          Age: 36<br>
-          Nationality: Spanish<br>
-          Media specialist/ journalist with 2 years of experience. <br>
-          Has worked as sport and eSports media<br> editor for Agencia EFE.<br>
-          <br>
-          <br>
-      </h3>
+<br><br>
 
-        <p style="text-align: center;">
-          <img src="img/aboutus3.jpg" alt="Caiyun Gu" width="350" height="350">
-          </p>
-  
-      <h3>
-          <strong>Caiyun Gu</strong><br>
-          Gender: Female<br>
-          Age: 26<br>
-          Nationality: Chinese<br>
-          English Literature Bachelor degree<br> with 3 years of working experience. <br>
-          worked as sales manager and filed<br> engineer specialist in Nigeria.<br>
-          <br>
-          <br>
-      </h3>
+<div class="photo">
+  <div class="clearfix">
+    <img class="img2" src="img/aboutus2.jpg" alt="Julio García" width="350" height="350">
+    <h4> Julio García</h4>
+    <h5>
+      Gender: male<br>
+      Age: 36<br>
+      Nationality: Spanish<br>
+      Media specialist/ journalist with 2 years of experience. <br>
+      Has worked as sport and eSports media editor for Agencia EFE.
+  </h5>
+</div>
+</div>
 
-        <p style="text-align: center;">
-          <img src="img/aboutus4.jpg" alt="Yuzhe Jin" width="350" height="350">
-          </p>
-  
-      <h3>
-          <strong>Yuzhe Jin</strong><br>
-          Gender: Female<br>
-          Age: 26<br>
-          Nationality: Chinese<br>
-          3 years of working experience.<br>
-          Has worked as ux designer for global<br> consulting industry <br>
-          <br>
-          <br>
-      </h3>
+<br><br>
 
-        <p style="text-align: center;">
-          <img src="img/aboutus5.jpg" alt="Yuzhe Jin" width="350" height="350">
-          </p>
-  
-      <h3>
-          <strong>Ran Zhang</strong><br>
-          Gender: Male<br>
-          Age: 22<br>
-          Nationality: Chinese<br>
-          Undergraduate graduate with two month<br> internship experience<br>
-          Has Majored in product design<br>
-          <br>
-          <br>
-      </h3>
-        <br>
+<div class="photo">
+  <div class="clearfix">
+    <img class="img2" src="img/aboutus3.jpg" alt="Caiyun Gu" width="350" height="350">
+    <h4> Caiyun Gu</h4>
+    <h5>
+      Gender: Female<br>
+      Age: 26<br>
+      Nationality: Chinese<br>
+      English Literature Bachelor degree with 3 years of working experience.<br>
+      has worked as sales manager and filed engineer specialist in Nigeria.
+  </h5>
+</div>
+</div>
 
-        <br>
-    </ul> 
-  
+<br><br>
 
-    <br>
+<div class="photo">
+  <div class="clearfix">
+    <img class="img2" src="img/aboutus4.jpg" alt="Yuzhe Jin" width="350" height="350">
+    <h4>Yuzhe Jin</h4>
+    <h5>
+      Gender: Female<br>
+      Age: 26<br>
+      Nationality: Chinese<br>
+      3 years of working experience.<br>
+      Has worked as ux designer for global consulting industry.
+  </h5>
+</div>
+</div>
+
+<br><br>
+
+<div class="photo">
+  <div class="clearfix">
+    <img class="img2" src="img/aboutus5.jpg" alt="Ran Zhang" width="350" height="350">
+    <h4>Ran Zhang</h4>
+    <h5>
+      Gender: Male<br>
+      Age: 22<br>
+      Nationality: Chinese<br>
+      Undergraduate graduate with two month internship experience.<br>
+      Has Majored in product design.
+  </h5>
+</div>
+</div>
+
+<br><br>
 
     <div class="footer">
       <p>Terms of use | About Us | Privacy | Cookies</p>
       <p>
         Contact us:
-        <a href="mailto:122108553@umail.ucc.ie" targt="_blank" style="color:white">122108553@umail.ucc.ie</a>
+        <a href="mailto:122111410@umail.ucc.ie" targt="_blank" style="color:white">122111410@umail.ucc.ie</a>
       </p>
   </div>
 
